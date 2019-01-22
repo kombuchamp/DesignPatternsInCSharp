@@ -5,7 +5,7 @@ using System.Text;
 namespace AbstractFactory
 {
     // Client class
-    class SoftDrinkAssembler
+    public class SoftDrinkAssembler
     {
         readonly AbstractBottle _bottle;
         readonly AbstractLiquid _liquid;
@@ -19,7 +19,7 @@ namespace AbstractFactory
         public void AssembleDrink()
         {
             _bottle.Pour(_liquid);
-            Console.WriteLine("Drink has been assembled");
+            Console.WriteLine($"Drink \"{_liquid}\" has been assembled");
         }
     }
 }

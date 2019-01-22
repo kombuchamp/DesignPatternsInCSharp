@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractFactory.SoftDrinkAssembler" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAAAAAAAAAACABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SoftDrinkAssembler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory.SoftDrinkFactory" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAA=</HashCode>
+      <FileName>SoftDrinkFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory.AbstractBottle" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractBottle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory.AbstractLiquid" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractLiquid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory.ColaBottle" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColaBottle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory.ColaLiquid" Collapsed="true">
+    <Position X="8.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ColaLiquid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AbstractFactory.ColaFactory" Collapsed="true">
+    <Position X="1" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAACAAAA=</HashCode>
+      <FileName>ColaFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
