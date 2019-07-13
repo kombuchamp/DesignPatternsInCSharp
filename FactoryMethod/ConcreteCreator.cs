@@ -4,11 +4,11 @@ using System.Text;
 
 namespace FactoryMethod
 {
-    class ConcreteProduct: Product
+    class ConcreteCreator : Creator
     {
-        public ConcreteProduct()
+        public override Product FactoryMethod()
         {
-            Console.WriteLine("Concrete product created");
+            return new ConcreteProduct();
         }
     }
 }
