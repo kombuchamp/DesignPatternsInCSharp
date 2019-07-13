@@ -6,7 +6,9 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Creator creator = new ConcreteCreator();
+
+            Product product = creator.FactoryMethod();
         }
     }
 }
