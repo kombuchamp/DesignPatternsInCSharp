@@ -6,7 +6,12 @@ namespace Prototype
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var state = new ReferenceType(1, "Some string");
+            var prototype = new ConcretePrototype(state);
+            var clone = prototype.Clone();
+
+            var dotNetPrototype = new DotNetPrototype(state);
+            var dotNetClone = dotNetPrototype.Clone();
         }
     }
 }
