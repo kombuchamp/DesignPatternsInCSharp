@@ -10,7 +10,7 @@ This is work in progress. Currently done:
  - [x] Builder
  - [x] Factory Method
  - [x] Prototype
- - [ ] Singleton
+ - [x] Singleton
  - [ ] Adapter
  - [ ] Bridge
  - [ ] Composite
