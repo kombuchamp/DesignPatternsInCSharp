@@ -6,7 +6,9 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var instance1 = Singleton.Instance;
+            var instance2 = Singleton.Instance;
+            Console.WriteLine(ReferenceEquals(instance1, instance2));
         }
     }
 }
